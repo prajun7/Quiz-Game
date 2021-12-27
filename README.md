@@ -4,4 +4,4 @@ It is a simple browser-based quiz game. There is a total of 5 questions, each qu
 
 **I am using vanilla JavaScript and HTML to create the form.**
 
-
+**I am planning to add CSS in the future.**
