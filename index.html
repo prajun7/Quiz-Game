@@ -12,8 +12,8 @@
  <body>
 
     <h2> Answer the Following Questions</h2>
-
-    <p> What comes after alphabet A?</p>
+    <ol>
+   <li> <p> What comes after alphabet A?</p> </li>
     <form>
         <input type = "radio" name = "Question1" value = "C">
         <label for = "option1"> C </label><br>
@@ -25,7 +25,7 @@
         <label for = "option4"> E </label><br>
     </form>
 
-    <p> What comes after number 5?</p>
+    <li><p> What comes after number 5?</p></li>
     <form>
         <input type = "radio" name = "Question2" value = "3">
         <label for = "option1"> 3 </label><br>
@@ -40,7 +40,7 @@
         <label for = "option4"> 6 </label><br> 
     </form> 
 
-    <p> What comes after alphabet X?</p>
+    <li><p> What comes after alphabet X?</p></li>
     <form>
         <input type = "radio" id = "correct3" name = "Question3" value = "Y">
         <label for = "option1"> Y </label><br>
@@ -55,13 +55,7 @@
         <label for = "option4"> Z </label><br>  
     </form> 
 
-    <p id = "result"> Result will display here</p>
-    
-    <input type = "button" id = "submit" value = "Check Score" onclick ="Calculate();" />
-
-   
-
-    <p> What comes after number 11?</p>
+    <li><p> What comes after number 11?</p></li>
     <form>
         <input type = "radio" id = "correct4" name = "Question4" value = "12">
         <label for = "option1"> 12 </label><br>
@@ -76,7 +70,7 @@
         <label for = "option4"> 10 </label><br>   
     </form> 
 
-    <p> What comes after alphabet D?</p>
+    <li><p> What comes after alphabet D?</p></li>
 
     <form>
         <input type = "radio" name = "Question5" value = "C">
@@ -91,8 +85,14 @@
         <input type = "radio" id = "correct5" name = "Question5" value = "E">
         <label for = "option4"> E </label><br>   
     </form> 
-    
 
+    </ol>
+
+    <div class= submit>
+        <span id = "result"> Result will display here</span>
+        <input type = "button" id = "submitBtn" value = "Check Score" onclick ="Calculate();" />
+     </div>
+    
     <script src = "hw03_quiz.js"></script>
 
     
