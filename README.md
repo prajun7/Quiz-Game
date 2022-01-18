@@ -7,4 +7,4 @@ it shows user the score, like ⅘ (4 correct and 1 incorrect).
 **I am using vanilla JavaScript and HTML to create the quiz.**
 
 **I am planning to add CSS in the future.**
-Need to mark the incorrectly answered question in red and need to mark the correct answer in green..
+Need to mark the incorrectly answered question in red and need to mark the correct answer in green...
